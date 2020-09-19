@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const SidebarWrapper = styled.aside`
   align-items: center;
-  border-right: 1px solid #38444d;
-  background:#06092B;
+  border-right: 1px solid var(--borders);
+  background:var(--background);
   display: flex;
   flex-direction: column;
   height: 100vh;
